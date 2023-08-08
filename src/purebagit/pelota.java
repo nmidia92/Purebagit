@@ -11,4 +11,16 @@ package purebagit;
  */
 public class pelota {
     
+    int tamano;
+
+    public pelota(int tamano) {
+        this.tamano = tamano;
+    }
+
+    public int getTamano() {
+        return tamano;
+    }
+
+
+    
 }
